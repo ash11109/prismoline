@@ -20,6 +20,7 @@ const AboutAreaTwo = () => {
                   className='main-img'
                   src='assets/img/about/10.png'
                   alt='img'
+                  loading="lazy"
                 />
               </div>
             </div>

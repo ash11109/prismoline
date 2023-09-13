@@ -47,7 +47,7 @@ const ServiceAreaGroup = () => {
           <div className="col-md">
             <h4 className="hasktxtclr">Thermoplastic Road Markings</h4>
             <p className="hasktxtclr py-5">Hot Melt Thermoplastics are solid road marking materials at ambient temperature, which melt to liquid when heated at high temperature (between 180 and 220°C).</p>
-            <iframe className="haskvideo" src="https://www.youtube.com/embed/8CqLtT3B6hw" title="youtube video" allowFullScreen />
+            <iframe className="haskvideo" src="https://www.youtube.com/embed/8CqLtT3B6hw" loading="lazy" title="youtube video" allowFullScreen />
 
             {/* <iframe srcSet="https://www.youtube.com/watch?v=8CqLtT3B6hw" title="youtube video" allowFullScreen></iframe> */}
           </div>
@@ -61,7 +61,7 @@ const ServiceAreaGroup = () => {
           <li>High night visibility until teh end of its use life, as they incorporate glass  beads into its composition</li>
         </ul>
         <div className="haskimg2">f
-          <img srcSet="./assets/img/blog/3.png" alt="img"  />
+          <img srcSet="./assets/img/blog/3.png" alt="img" loading="lazy"/>
         </div>
           </div>
         </div>
@@ -84,19 +84,19 @@ const ServiceAreaGroup = () => {
         
          <div className="row divimg">
           <div className="col-sm">
-            <img srcSet="./assets/img/service/e1.jpeg" alt="img"/>
+            <img srcSet="./assets/img/service/e1.jpeg" alt="img" loading="lazy"/>
            </div>
           <div className="col-sm">
-            <img srcSet="./assets/img/service/e3.png" alt="img"  />
+            <img srcSet="./assets/img/service/e3.png" alt="img" loading="lazy"/>
           </div>
         </div> 
 
          <div className="row divimg">
           <div className="col-sm">
-            <img srcSet="./assets/img/service/e2.png" alt="img"/>
+            <img srcSet="./assets/img/service/e2.png" alt="img" loading="lazy"/>
            </div>
           <div className="col-sm">
-            <img srcSet="./assets/img/service/e4.png" alt="img"  />
+            <img srcSet="./assets/img/service/e4.png" alt="img" loading="lazy"/>
           </div>
         </div> 
 
@@ -106,10 +106,10 @@ const ServiceAreaGroup = () => {
         <h4 className="hasktxtclr mb-3 text-center">Fully Automatic Road</h4>
         <h5 className="text-center">Marking Machine</h5>
           <div className="row divimg p-3 mb-3">
-            <img srcSet="./assets/img/service/w3.png" alt="" />
+            <img srcSet="./assets/img/service/w3.png" alt="img" loading="lazy"/>
           </div>
           <div className="row divimg p-3">
-            <img srcSet="./assets/img/service/w4.png" alt=""  />
+            <img srcSet="./assets/img/service/w4.png" alt="img" loading="lazy"/>
           </div>
           </div>
 
@@ -169,12 +169,12 @@ const ServiceAreaGroup = () => {
           <div className="col-md ">
        
           <div className="row divimg p-3 mb-3">
-            <img srcSet="./assets/img/service/p1.jpeg" alt="img" />
+            <img srcSet="./assets/img/service/p1.jpeg" alt="img" loading="lazy"/>
           </div>
           <div className="row">
           <div className="row divimg">
   
-  <img className="m-auto" srcSet="./assets/img/service/g1.gif" alt="img"/>
+  <img className="m-auto" srcSet="./assets/img/service/g1.gif" alt="img" loading="lazy"/>
  
 
 </div> 
@@ -193,12 +193,12 @@ const ServiceAreaGroup = () => {
             <h5>Potters Glass Beads</h5>
             <p className="my-3 hasktxtclr">Potters are a step superior glass beads that are very tuf and are specially coated for high reflection and which are highly water and dust resistant.</p>
             <p  className="my-3 hasktxtclr">POTTERS GLASS BEADS COMES WITH MAXIMUM ROUNDNESS IN THEM THUS MAKING THE GLASS BEADS APPROPRIATE FOR BEST REFLECTION</p>
-            <img className="clrimg" srcSet="./assets/img/service/ps2.png" alt="img" />
+            <img className="clrimg" srcSet="./assets/img/service/ps2.png" alt="img" loading="lazy"/>
 
           </div>
           <div className="col-md-8">
           <div className="row mt-2">
-            <img srcSet="./assets/img/service/ps1.jpg" alt="img" />
+            <img srcSet="./assets/img/service/ps1.jpg" alt="img" loading="lazy"/>
           </div>
           <div className="row mt-5">
             <h5>

@@ -28,7 +28,7 @@ tirelessly to safeguard the interests of our customers as well as the environmen
               <div className='single-service-inner-3 single-service-inner-3-left'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/7.svg' alt='img' />
+                    <img src='assets/img/service-icon/7.svg' alt='img' loading="lazy"/>
                   </div>
                 </div>
                 <div className='details'>
@@ -46,7 +46,7 @@ quality services that are at par with the quality standards globally
               <div className='single-service-inner-3 single-service-inner-3-left'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/8.svg' alt='img' />
+                    <img src='assets/img/service-icon/8.svg' alt='img' loading="lazy"/>
                   </div>
                 </div>
                 <div className='details'>
@@ -64,7 +64,7 @@ your work is not disrupted. We tailor our work as per requirements
               <div className='single-service-inner-3 single-service-inner-3-left'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/8.svg' alt='img' />
+                    <img src='assets/img/service-icon/8.svg' alt='img' loading="lazy"/>
                   </div>
                 </div>
                 <div className='details'>
@@ -101,11 +101,11 @@ create a network that emphasises Road Safety.
             </div>
             <div className='col-lg-4 col-md-6 bg-blue-right d-lg-inline-block d-none'>
               <div className='service-thumb service-middle-section align-self-end'>
-                <img src='assets/img/service-icon/a1.svg' alt='img' />
-                <img src='assets/img/service-icon/a2.svg' alt='img' />
-                <img src='assets/img/service-icon/a3.svg' alt='img' />
-                <img src='assets/img/service-icon/a4.svg' alt='img' />
-                <img src='assets/img/service-icon/a5.svg' alt='img' />
+                <img src='assets/img/service-icon/a1.svg' alt='img' loading="lazy"/>
+                <img src='assets/img/service-icon/a2.svg' alt='img' loading="lazy"/>
+                <img src='assets/img/service-icon/a3.svg' alt='img' loading="lazy"/>
+                <img src='assets/img/service-icon/a4.svg' alt='img' loading="lazy"/>
+                <img src='assets/img/service-icon/a5.svg' alt='img' loading="lazy"/>
                 
               </div>
             </div>
@@ -114,7 +114,7 @@ create a network that emphasises Road Safety.
               <div className='single-service-inner-3 single-service-inner-3-right'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/10.svg' alt='img' />
+                    <img src='assets/img/service-icon/10.svg' alt='img' loading="lazy"/>
                   </div>
                 </div>
                 <div className='details'>
@@ -136,7 +136,7 @@ quality result in the end.
               <div className='single-service-inner-3 single-service-inner-3-right'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/11.svg' alt='img' />
+                    <img src='assets/img/service-icon/11.svg' alt='img' loading="lazy"/>
                   </div>
                 </div>
                 <div className='details'>
@@ -154,7 +154,7 @@ prioritises the needs of the customers and provides them with an excellent resul
               <div className='single-service-inner-3 single-service-inner-3-right mb-0'>
                 <div className='thumb'>
                   <div className='thumb-inner'>
-                    <img src='assets/img/service-icon/12.svg' alt='img' />
+                    <img src='assets/img/service-icon/12.svg' alt='img' loading="lazy"/>
                   </div>
                 </div>
                 <div className='details'>

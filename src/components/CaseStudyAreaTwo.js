@@ -19,7 +19,7 @@ const CaseStudyAreaTwo = () => {
             <div className='col-lg-8 col-md-6'>
               <div className='single-case-study-inner style-2'>
                 <div className='thumb'>
-                  <img src='assets/img/service/w1.png' alt='img' />
+                  <img src='assets/img/service/w1.png' alt='img' loading="lazy"/>
                 </div>
               
                   {/* <a className='cat' href='#'>
@@ -31,7 +31,7 @@ const CaseStudyAreaTwo = () => {
                 <div className='col-lg-6'>
                   <div className='single-case-study-inner style-2'>
                     <div className='thumb'>
-                      <img src='assets/img/service/w4.png' alt='img' />
+                      <img src='assets/img/service/w4.png' alt='img' loading="lazy"/>
                     </div>
                     {/* <div className='details'>
                       <h5>
@@ -46,7 +46,7 @@ const CaseStudyAreaTwo = () => {
                 <div className='col-lg-6'>
                   <div className='single-case-study-inner style-2'>
                     <div className='thumb'>
-                      <img src='assets/img/service/w3.png' alt='img' />
+                      <img src='assets/img/service/w3.png' alt='img' loading="lazy"/>
                     </div>
                     {/* <div className='details'>
                       <h5>
@@ -63,7 +63,7 @@ const CaseStudyAreaTwo = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-case-study-inner style-2'>
                 <div className='thumb'>
-                  <img src='assets/img/service/w2.png' alt='img' />
+                  <img src='assets/img/service/w2.png' alt='img' loading="lazy"/>
                 </div>
 
                 {/* <div className='details'>
@@ -79,7 +79,7 @@ const CaseStudyAreaTwo = () => {
 
               <div className='single-case-study-inner style-2'>
                 <div className='thumb'>
-                  <img src='assets/img/service/w5.jpg' alt='img' />
+                  <img src='assets/img/service/w5.jpg' alt='img' loading="lazy"/>
                 </div>
                 <div className='details'>
                   <h5>
@@ -92,7 +92,7 @@ const CaseStudyAreaTwo = () => {
               </div>
               <div className='single-case-study-inner style-2'>
                 <div className='thumb'>
-                  <img src='assets/img/service/w6.jpg' alt='img' />
+                  <img src='assets/img/service/w6.jpg' alt='img' loading="lazy"/>
                 </div>
 
                 {/* <div className='details'>

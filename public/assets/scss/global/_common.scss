@@ -1050,10 +1050,16 @@
   top: 0px;
   left: 0px;
   right: 0px;
-
+  width: 90vw;
 }
 .haskvideo{
   width: 100%;
   // height: 50%;
   aspect-ratio: 16/9;
+}
+@media(width<=900px){
+  .hsaknavbar{
+   
+    width: 100vw;
+  }
 }

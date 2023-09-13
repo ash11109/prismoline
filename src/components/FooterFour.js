@@ -100,13 +100,11 @@ const FooterFour = () => {
             </div>
             <div className='col-lg-3 col-md-6 ps-xl-5'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>Registered Office –</h4>
-                <p>Sharda Genpower Pvt Ltd.</p>
-                <p>Hill View Lane</p>
-                <p>Ratu Road</p>
-                <p>Near Pahari Mandir</p>
-                <p>Ranchi, 834001
-Jharkhand, INDIA</p>
+                <h4 className='widget-title'>Corporate Office –</h4>
+                <p>195/B Mandeliya Nagar</p>
+                <p>Bariatu </p>
+                <p>Ranchi -834009</p>
+                <p>Jharkhand, INDIA</p>
                 {/* <ul>
                   <li className='sky'>
                     <Link to='/service'>
@@ -143,7 +141,7 @@ Jharkhand, INDIA</p>
             </div>
             <div className='col-lg-3 col-md-6 ps-xl-5'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>Works Address –</h4>
+                <h4 className='widget-title'>Manufacturing Unit –</h4>
                 <p>36 (P), Phase II,</p>
                 <p>Industrial Area,</p>
                 <p>Tatisilwai,</p>

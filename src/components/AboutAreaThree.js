@@ -20,6 +20,7 @@ const AboutAreaThree = () => {
                   className='main-img'
                   src='assets/img/about/11.png'
                   alt='img'
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -76,22 +77,22 @@ const AboutAreaThree = () => {
             <div className='client-slider'>
               <Marquee gradient={false}>
                 <div className='thumb'>
-                  <img src='assets/img/client/1.svg' alt='img' />
+                  <img src='assets/img/client/1.svg' alt='img' loading="lazy"/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/2.svg' alt='img' />
+                  <img src='assets/img/client/2.svg' alt='img' loading="lazy"/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/3.svg' alt='img' />
+                  <img src='assets/img/client/3.svg' alt='img' loading="lazy"/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/4.svg' alt='img' />
+                  <img src='assets/img/client/4.svg' alt='img' loading="lazy"/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/5.svg' alt='img' />
+                  <img src='assets/img/client/5.svg' alt='img' loading="lazy"/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/6.svg' alt='img' />
+                  <img src='assets/img/client/6.svg' alt='img' loading="lazy"/>
                 </div>
               </Marquee>
             </div>

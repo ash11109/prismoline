@@ -91,18 +91,21 @@ const BannerFive = () => {
                     className='banner-animate-img banner-animate-img-1 left_image_bounce'
                     src='assets/img/banner-5/4.png'
                     alt='img'
+                    loading="lazy"
                   />
 
                   <img
                     className='banner-animate-img banner-animate-img-3 top_image_bounce'
                     src='assets/img/banner-5/7.svg'
                     alt='img'
+                    loading="lazy"
                   />
                   <div>
                     <img
                       className='main-img'
                       src='assets/img/banner-5/3.jpg'
                       alt='img'
+                      loading="lazy"
                     />
                   </div>
                 </div>
