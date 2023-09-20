@@ -62,7 +62,7 @@ const FooterFour = () => {
                   <ul className='details text-white'>
                     <li>
                       <FaMapMarkerAlt className='sky' />
-                      Hill view lane, Ratu Road Ranchi-834001 Jharkhand,India
+                      {/* Hill view lane, Ratu Road Ranchi-834001 Jharkhand,India */}
                     </li>
                     <li className='mt-3'>
                       <FaPhoneAlt className='sky' /> +91-9199960666
