@@ -70,7 +70,7 @@ const FooterFour = () => {
                       <FaPhoneAlt className='sky' /> +91-9199960666
                     </li>
                     <li className='mt-2'>
-                      <FaEnvelope className='sky' /> info@prismoline.com
+                      <FaEnvelope className='sky' /> inf@prismoline.com
                     </li>
                   </ul>
                   <ul className='social-media mt-4'>
