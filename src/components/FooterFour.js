@@ -1,12 +1,10 @@
 import React from "react";
 import {
-  FaChevronRight,
   FaEnvelope,
   FaFacebookF,
   FaInstagram,
   FaMapMarkerAlt,
   FaPhoneAlt,
-  FaRegCalendarAlt,
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
@@ -44,12 +42,12 @@ const FooterFour = () => {
                   </div>
                 </div>
                 <div className='col-lg-4'>
-                  <a
+                  <Link
                     className='btn w-100 btn-black sky border-radius-0'
-                    href='#'
+                    to='/'
                   >
                     Submit now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -75,24 +73,24 @@ const FooterFour = () => {
                   </ul>
                   <ul className='social-media mt-4'>
                     <li>
-                      <a href='https://www.facebook.com/prismoline/' className='sky'>
+                      <Link to='https://www.facebook.com/prismoline/' className='sky'>
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#' className='sky'>
+                      <Link to='#' className='sky'>
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='' className='sky'>
+                      <Link to='' className='sky'>
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='https://www.youtube.com/channel/UC8TOqw9f2oQvgwsvS4bfBig/featured' className='sky'>
+                      <Link to='https://www.youtube.com/channel/UC8TOqw9f2oQvgwsvS4bfBig/featured' className='sky'>
                         <FaYoutube />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -237,9 +235,9 @@ const FooterFour = () => {
                 <p>© Yoursitename 2023 | All Rights Reserved</p>
               </div>
               <div className='col-md-6 text-lg-end'>
-                <a href='#'>Trams &amp; Condition</a>
-                <a href='#'>Privacy Policy</a>
-                <a href='#'>Contact Us</a>
+                <Link to='/'>Trams &amp; Condition</Link>
+                <Link to='/'>Privacy Policy</Link>
+                <Link to='.'>Contact Us </Link>
               </div>
             </div>
           </div>
