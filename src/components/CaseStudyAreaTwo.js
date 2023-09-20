@@ -82,12 +82,7 @@ const CaseStudyAreaTwo = () => {
                   <img src='assets/img/service/w5.jpg' alt='img' loading="lazy"/>
                 </div>
                 <div className='details'>
-                  <h5>
-                    <Link to='/case-study-details'>AI Farms</Link>
-                  </h5>
-                  <a className='cat' href='#'>
-                    California
-                  </a>
+                  
                 </div>
               </div>
               <div className='single-case-study-inner style-2'>
