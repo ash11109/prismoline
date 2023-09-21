@@ -21,11 +21,6 @@ const CaseStudyAreaTwo = () => {
                 <div className='thumb'>
                   <img src='assets/img/service/w1.png' alt='img' loading="lazy"/>
                 </div>
-              
-                  {/* <a className='cat' href='#'>
-                    Las vegas
-                  </a> */}
-                {/* </div> */}
               </div>
               <div className='row'>
                 <div className='col-lg-6'>
@@ -33,14 +28,6 @@ const CaseStudyAreaTwo = () => {
                     <div className='thumb'>
                       <img src='assets/img/service/w4.png' alt='img' loading="lazy"/>
                     </div>
-                    {/* <div className='details'>
-                      <h5>
-                        <Link to='/case-study-details'>Wise Mind</Link>
-                      </h5>
-                      <a className='cat' href='#'>
-                        Las vegas
-                      </a>
-                    </div> */}
                   </div>
                 </div>
                 <div className='col-lg-6'>
@@ -48,14 +35,6 @@ const CaseStudyAreaTwo = () => {
                     <div className='thumb'>
                       <img src='assets/img/service/w3.png' alt='img' loading="lazy"/>
                     </div>
-                    {/* <div className='details'>
-                      <h5>
-                        <Link to='/case-study-details'>Tecnology Farms</Link>
-                      </h5>
-                      <a className='cat' href='#'>
-                        Las vegas
-                      </a>
-                    </div> */}
                   </div>
                 </div>
               </div>
@@ -63,18 +42,8 @@ const CaseStudyAreaTwo = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-case-study-inner style-2'>
                 <div className='thumb'>
-                  <img src='assets/img/service/w2.png' alt='img' loading="lazy"/>
+                  <img src='assets/img/banner-5/1.jpg' alt='img' loading="lazy"/>
                 </div>
-
-                {/* <div className='details'>
-                  <h5>
-                    <Link to='/case-study-details'>Neural Logic.</Link>
-                  </h5>
-                  <a className='cat' href='#'>
-                    California
-                  </a>
-                </div> */}
-
               </div>
 
               <div className='single-case-study-inner style-2'>
@@ -89,16 +58,6 @@ const CaseStudyAreaTwo = () => {
                 <div className='thumb'>
                   <img src='assets/img/service/w6.jpg' alt='img' loading="lazy"/>
                 </div>
-
-                {/* <div className='details'>
-                  <h5>
-                    <Link to='/case-study-details'>AI Farms</Link>
-                  </h5>
-                  <a className='cat' href='#'>
-                    California
-                  </a>
-                </div> */}
-
               </div>
 
 

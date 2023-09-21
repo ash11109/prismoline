@@ -1,35 +1,12 @@
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import { toast, Toaster } from "react-hot-toast";
+// import emailjs from "@emailjs/browser";
+import { Toaster } from "react-hot-toast";
 const ContactMain = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    // Please See Documentation for more information
-    emailjs
-      .sendForm(
-        "service_yipk4xg", //YOUR_SERVICE_ID
-        "template_71bgc2q", //YOUR_TEMPLATE_ID
-        form.current,
-        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          if (result.text === "OK") {
-            toast.success("Massage Sent Successfully!");
-            form.current[0].value = "";
-            form.current[1].value = "";
-            form.current[2].value = "";
-            form.current[3].value = "";
-          }
-        },
-        (error) => {
-          if (error.text !== "OK") {
-            toast.success("Massage Not Sent!");
-          }
-        }
-      );
+    console.log(1);
   };
   return (
     <>

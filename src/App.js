@@ -1,13 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Gallery from "./pages/Blog";
-
 import Contact from "./pages/Contact";
-
 import HomeOne from "./pages/HomeOne";
-
 import Service from "./pages/Service";
-
 import TeamDetails from "./pages/TeamDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -27,13 +23,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path='/' element={<HomeOne />} />
-        
         <Route exact path='/about' element={<About />} />
         <Route exact path='/blog' element={<Gallery />} />
-      
         <Route exact path='/contact' element={<Contact />} />
-        <Route exact path='/service' element={<Service />} />
-        
+        <Route exact path='/service' element={<Service />} />   
         <Route exact path='/team-details' element={<TeamDetails />} />
       </Routes>
       <ScrollToTop smooth color='#246BFD' />

@@ -16,14 +16,6 @@ const BannerFive = () => {
           <div className='row mt-5'>
             <div className='col-lg-6 pb-xl-5 align-self-center'>
               <div className='banner-inner pe-xl-4 pb-5 mt-5'>
-                {/* <h6
-                  className='bg-base-2 text-white subtitle'
-                  data-aos='fade-right'
-                  data-aos-delay='100'
-                  data-aos-duration='1500'
-                >
-                  Designing for the future
-                </h6> */}
                 <h2
                   className='title text-white'
                   data-aos='fade-right'
@@ -46,7 +38,7 @@ const BannerFive = () => {
                   data-aos-delay='350'
                   data-aos-duration='1500'
                 >
-                Mark roads with the Best Thermoplastic Paint
+                  Mark roads with the Best Thermoplastic Paint
 
                 </h2>
                 <Link
@@ -64,13 +56,13 @@ const BannerFive = () => {
                   data-aos-delay='350'
                   data-aos-duration='1500'
                 >
-                 <div
-  className='video-play-btn-hover'
-  onClick={() => setOpen(true)}
->
-  <img src='assets/img/video.svg' alt='img' />{" "}
-  <h6 className='d-inline-block text-white'>how we work</h6>
-</div>
+                  <div
+                    className='video-play-btn-hover'
+                    onClick={() => setOpen(true)}
+                  >
+                    <img src='assets/img/video.svg' alt='img' />
+                    <h6 className='d-inline-block text-white'>how we work</h6>
+                  </div>
 
                   <div></div>
                 </div>
@@ -86,14 +78,6 @@ const BannerFive = () => {
             <div className='col-lg-6 col-md-9 align-self-end'>
               <div className='banner-thumb-2 mt-4 mt-lg-0'>
                 <div className='main-img-wrap'>
-                  
-                    <img
-                    className='banner-animate-img banner-animate-img-1 left_image_bounce'
-                    src='assets/img/banner-5/4.png'
-                    alt='img'
-                    loading="lazy"
-                  />
-
                   <img
                     className='banner-animate-img banner-animate-img-3 top_image_bounce'
                     src='assets/img/banner-5/7.svg'
@@ -101,12 +85,6 @@ const BannerFive = () => {
                     loading="lazy"
                   />
                   <div>
-                    <img
-                      className='main-img'
-                      src='assets/img/banner-5/3.jpg'
-                      alt='img'
-                      loading="lazy"
-                    />
                   </div>
                 </div>
               </div>
