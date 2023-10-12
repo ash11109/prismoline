@@ -99,7 +99,7 @@ const NavBar = () => {
                 <img src='assets/img/icon/1.png' alt='img' />
               </span>
               <span>Need help?</span>
-              <h5>9199960666</h5>
+              <h5>7033275747</h5>
             </a>
           </div>
         </div>

@@ -26,7 +26,7 @@ const FooterFour = () => {
                   <img src='assets/img/icon/40.svg' alt='img' />
                 </div>
                 <div className='media-body'>
-                  <h6 className='text-white'>+91-9199960666</h6>
+                  <h6 className='text-white'>+91-7033275747</h6>
                   <p className='mb-0 text-white'>Call 24HR / 7Days</p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const FooterFour = () => {
                       195/B Mandeliya Nagar , Bariatu , Ranchi -834009 ,  Jharkhand, INDIA
                     </li>
                     <li className='mt-3'>
-                      <FaPhoneAlt className='sky' /> +91-9199960666
+                      <FaPhoneAlt className='sky' /> +91-7033275747
                     </li>
                     <li className='mt-2'>
                       <FaEnvelope className='sky' /> inf@prismoline.com
@@ -113,7 +113,7 @@ const FooterFour = () => {
                       36 (P), Phase II , Industrial Area , Tatisilwai , Ranchi, 835103 ,Jharkhand, INDIA
                     </li>
                     <li className='mt-3'>
-                      <FaPhoneAlt className='sky' /> +91-9199960666
+                      <FaPhoneAlt className='sky' /> +91-7033275747
                     </li>
                     <li className='mt-2'>
                       <FaEnvelope className='sky' /> inf@prismoline.com
