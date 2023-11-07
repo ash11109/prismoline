@@ -92,6 +92,10 @@ const ContactMain = () => {
         </div>
       </div>
 
+      <div className="row">
+          <img src="./assets/img/map.jpg" alt="img" loading="lazy" />
+        </div>
+
       {/* contact list */}
       {/* <div className='contact-page-list'>
         <div className='container'>

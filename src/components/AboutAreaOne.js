@@ -3,7 +3,6 @@ import React from "react";
 const AboutAreaOne = () => {
   return (
     <>
-      {/* ================== AboutAreaOne start  ==================*/}
       <div className='about-area pd-top-120 pd-bottom-120'>
         <div className='container'>
           <div className='row'>
@@ -34,7 +33,7 @@ const AboutAreaOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/r.jpg'
+                  src='assets/img/bg/c1.jpg'
                   alt='img'
                   loading="lazy"
                 />
@@ -48,27 +47,32 @@ const AboutAreaOne = () => {
             >
               <div className='section-title mt-5 mt-lg-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
-                {/* <h2 className='title'>
-                  It Is A Critical Component Of <span>Modern</span> Businesses
-                </h2> */}
+                <h2 className='title'>
+                  <span> PRISMOLINE </span> 
+                </h2>
                 <p className='content mb-4 mb-xl-5'>
-                  We usually do not notice the science behind creating a certain type of infrastructure.
-                  Whether it is the roads, airports, schools, offices, and even the places where we stay. What
-                  is needed is the best quality tools and materials at the disposal of the country, government,
-                  contractor, architect and engineer so that the quality of these infrastructure is maintained
-                  and it serves the purpose for which it has been built
-                  <span className="mt-2">Prismoline offers a range of products that are helpful in transforming roads by marking them.
-                    Our thermoplastic paint is effective for marking roads and our services extend beyond just
-                    marking roads, to practically creating a safe road network for people across the world. </span>
-
-                  <span className="mt-2">We work quickly and efficiently, ensuring minimal disruption to traffic. Our services are
-                    backed by an impressive range of machinery which includes line marking machines and
-                    accessories suitable for big & small projects. These machines are serviced regularly and
-                    kept in excellent working order. Alongside this, we use the most advanced techniques and
-                    technologies that are at par with the world standards</span>
+                 was established to make road safer. We are
+                  leading manufacture & export of thermoplastic materials. Our
+                  rich experience & expertise in thermoplastic, along with
+                  advanced thermoplastic formulation, are leading the way to
+                  safer trac on road for road for world’s population. we are
+                  committed to quality, Safety, Environment & Customers.
+                  Our Quality management system start with quality with
+                  assurance testing on all incoming raw materials, entire
+                  manufacturing process, and finished product. our quality
+                  control system & computerized batch control manufacturing
+                  facility delivered an excellent product every time. <b> PRISMOLINE </b>
+                  is passionate to quality from raw material to application on
+                  road by providing expert technical field support.
+                  At <b> PRISMOLINE </b> our goal is 100% customer satisfaction. We
+                  believe that our success depend only on success of our valued
+                  customers.
+                  We believe in producing environment friendly marking and BS
+                  materials. At the same time all making match or exceed
+                  standard like the <b> MORTH 803.4 </b> and <b> BS 36262. </b>
 
                 </p>
-                <div className='row'>
+                {/* <div className='row'>
                   <div className='col-md-6'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
@@ -96,13 +100,12 @@ const AboutAreaOne = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* ================== AboutAreaOne End  ==================*/}
     </>
   );
 };

@@ -7,17 +7,9 @@ import NavBar from "../components/NavBar";
 const Blog = () => {
   return (
     <>
-      {/* Navigation Bar */}
       <NavBar />
-
-      {/* Navigation Bar */}
-      <Breadcrumb title={"WELCOME TO PRISMOLINE"} bgimg={"./assets/img/bg/g1.jpg"} para={"Safety is Visible"} title2={"Gallery"}
-/>
-
-      {/* Blog Group */}
+      <Breadcrumb title={"WELCOME TO PRISMOLINE"} bgimg={"./assets/img/bg/g1.jpg"} para={"Safety is Visible"} title2={"Gallery"}/>
       <BlogGroup />
-
-      {/* Footer One */}
       <FooterFour />
     </>
   );

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
-  
+
 
   useEffect(() => {
     // Use the useEffect hook to attach the click handlers when the DOM is ready
@@ -27,10 +27,10 @@ const NavBar = () => {
   const menuActive = () => {
     setActive(!active);
   };
- 
+
   return (
     <>
-      
+
       <nav className='navbar navbar-area navbar-expand-lg'>
         <div className='container nav-container bg-light rounded-2 hsaknavbar'>
           <div className='responsive-mobile-menu'>
@@ -54,8 +54,6 @@ const NavBar = () => {
               <img src='assets/img/logo.png' alt='img' />
             </Link>
           </div>
-
-
           <div
             className={
               active
@@ -66,27 +64,19 @@ const NavBar = () => {
           >
             <ul className='navbar-nav menu-open text-lg-end'>
               <li className='menu-item-has-children'>
-              
-              
-               <Link to='/'>Home</Link>
-               
-               
+                <Link to='/'>Home</Link>
               </li>
               <li className='menu-item-has-children'>
-              
                 <Link to='/service'>Products</Link>
-                
               </li>
               <li className='menu-item-has-children'>
-                {/* <a href='#'>Pages</a> */}
                 <Link to='/team-details'>Certificates</Link>
-
-               
-
               </li>
               <li className='menu-item-has-children'>
-              <Link to='/blog'>Gallery</Link>
-             
+                <Link to='/blog'>Gallery</Link>
+              </li>
+              <li className='menu-item-has-children'>
+                <Link to='/about'>About Us</Link>
               </li>
               <li>
                 <Link to='/contact'>Contact Us</Link>
