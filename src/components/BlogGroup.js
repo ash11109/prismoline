@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, TabList, Tab, TabPanel } from "https://cdn.skypack.dev/react-tabs@3.2.2";
+import { Tabs, TabList, Tab, TabPanel }  from 'react-tabs';
 import './tabbed.css';
 // import { Link } from "react-router-dom";
 
