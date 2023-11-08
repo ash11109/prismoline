@@ -96,16 +96,7 @@ const BannerFive = () => {
 
       <div className="row">
         <div className="row">
-          <img src="./assets/img/team/1.jpg" alt="img" loading="lazy" />
-        </div>
-
-        <div className="row mt-3">
-          <div className="col-md">
-            <img src="./assets/img/team/2.jpg" alt="img" loading="lazy" />
-          </div>
-          <div className="col-md">
-            <img src="./assets/img/team/3.jpg" alt="img" loading="lazy" />
-          </div>
+          <img src="./assets/img/team/3MIMG.jpg" alt="img" loading="lazy" />
         </div>
       </div>
 

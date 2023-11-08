@@ -67,6 +67,9 @@ const NavBar = () => {
                 <Link to='/'>Home</Link>
               </li>
               <li className='menu-item-has-children'>
+                <Link to='/about'>About Us</Link>
+              </li>
+              <li className='menu-item-has-children'>
                 <Link to='/service'>Products</Link>
               </li>
               <li className='menu-item-has-children'>
@@ -75,9 +78,7 @@ const NavBar = () => {
               <li className='menu-item-has-children'>
                 <Link to='/blog'>Gallery</Link>
               </li>
-              <li className='menu-item-has-children'>
-                <Link to='/about'>About Us</Link>
-              </li>
+              
               <li>
                 <Link to='/contact'>Contact Us</Link>
               </li>
