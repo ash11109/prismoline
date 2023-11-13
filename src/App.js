@@ -24,10 +24,10 @@ function App() {
       <Routes>
         <Route exact path='/' element={<HomeOne />} />
         <Route exact path='/about' element={<About />} />
-        <Route exact path='/blog' element={<Gallery />} />
+        <Route exact path='/gallery' element={<Gallery />} />
         <Route exact path='/contact' element={<Contact />} />
-        <Route exact path='/service' element={<Service />} />   
-        <Route exact path='/team-details' element={<TeamDetails />} />
+        <Route exact path='/product' element={<Service />} />   
+        <Route exact path='/certificates' element={<TeamDetails />} />
       </Routes>
       <ScrollToTop smooth color='#246BFD' />
     </BrowserRouter>

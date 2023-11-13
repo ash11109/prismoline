@@ -70,13 +70,13 @@ const NavBar = () => {
                 <Link to='/about'>About Us</Link>
               </li>
               <li className='menu-item-has-children'>
-                <Link to='/service'>Products</Link>
+                <Link to='/product'>Products</Link>
               </li>
               <li className='menu-item-has-children'>
-                <Link to='/team-details'>Certificates</Link>
+                <Link to='/certificates'>Certificates</Link>
               </li>
               <li className='menu-item-has-children'>
-                <Link to='/blog'>Gallery</Link>
+                <Link to='/gallery'>Gallery</Link>
               </li>
               
               <li>
