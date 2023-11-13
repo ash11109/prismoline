@@ -110,7 +110,7 @@
             font-family: var(--heading-font);
           }
           &:hover a {
-            color: var(--main-color);
+            color: #50af9b;
           }
           + li {
             margin-left: 17px;
@@ -154,7 +154,7 @@
                 opacity: 0;
               }
               &:after {
-                background: var(--main-color);
+                background: #50af9b; // ash color changes
               }
             }
             &:hover > .sub-menu {
