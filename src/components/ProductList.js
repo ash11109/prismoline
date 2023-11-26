@@ -1,14 +1,15 @@
 import React from "react";
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
-import './ProductList.css';
 import { proImgUrl , THERMOPLASTICPAINT , OTHER , GLASSBEAD , THTEEMPRODUCT } from './dataVar';
+import 'react-tabs/style/react-tabs.css';
+import './ProductList.css';
 
 const ProductList = () => {
 
     const productTemplate = (item) => {
         return (
-            <div className="ashhcard" key={item.id}>
-                <img className="ashaskimg" src={ proImgUrl + item.img } alt="img" />
+            <div className="galleryash-item" key={item.id}>
+                <img className="galleryash-image" src={ proImgUrl + item.img } alt="img" />
                 <p className="ashText">{item.name}</p>
             </div>
         )
@@ -16,9 +17,9 @@ const ProductList = () => {
 
     return (
         <>
-            <div className="mt--10">
-                <Tabs className="mb10">
-                    <TabList>
+            <div className="ash-tab-div">
+                <Tabs>
+                    <TabList className="ash-tab-head">
                         <Tab>THERMO PLASTIC PAINT</Tab>
                         <Tab>OTHERS</Tab>
                         <Tab>GLASS BEADS</Tab>
@@ -26,35 +27,35 @@ const ProductList = () => {
                         <Tab>CRASH BARRIER</Tab>
                     </TabList>
                     <TabPanel>
-                        <div className="ash">
+                        <div className="galleryash">
                             {
                                 THERMOPLASTICPAINT.map((item) => productTemplate (item) )
                             }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="ash">
+                        <div className="galleryash">
                             {
                                 OTHER.map((item) => productTemplate (item) )
                             }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="ash">
+                        <div className="galleryash">
                             {
                                 GLASSBEAD.map((item) => productTemplate (item) )
                             }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="ash">
+                        <div className="galleryash">
                             {
                                 THTEEMPRODUCT.map((item) => productTemplate (item) )
                             }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="ash">
+                        <div className="gallery">
 
                         </div>
                     </TabPanel>

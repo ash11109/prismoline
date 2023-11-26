@@ -1,6 +1,4 @@
 import React from "react";
-import './ProductList.css';
-import './AshCss.css';
 
 const ProductDetail = () => {
 
