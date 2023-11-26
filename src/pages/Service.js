@@ -3,6 +3,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
 import ProductList from "../components/ProductList";
+import ProductDetail from "../components/ProductDetail";
 
 const Service = () => {
   return (
@@ -14,6 +15,7 @@ const Service = () => {
         para={"Safety is visible"} 
         title2={"Products"} />
         <ProductList />
+        <ProductDetail />
       <FooterFour />
     </>
   );
