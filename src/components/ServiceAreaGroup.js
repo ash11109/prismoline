@@ -1,4 +1,5 @@
 import React from "react";
+import './Ash.css';
 // import { FaPlus } from "react-icons/fa";
 // import { Link } from "react-router-dom";
 // import serviceList from "../scripts/serviceList";
@@ -66,8 +67,8 @@ const ServiceAreaGroup = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col">
-            <iframe className="haskvideo" src="https://www.youtube.com/embed/8CqLtT3B6hw" loading="lazy" title="youtube video" allowFullScreen />
+          <div className="col ash-yt">
+            <iframe className="haskvideo ash-yt" src="https://www.youtube.com/embed/8CqLtT3B6hw" loading="lazy" title="youtube video" allowFullScreen />
           </div>
         </div>
       </div>
