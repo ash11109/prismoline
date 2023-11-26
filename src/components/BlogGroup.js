@@ -1,7 +1,5 @@
 import React from "react";
 import './Ash.css';
-// import { Tabs, TabList, Tab, TabPanel }  from 'react-tabs';
-// import './tabbed.css';
 
 const BlogGroup = () => {
 
@@ -17,6 +15,7 @@ const BlogGroup = () => {
         '21.png', '22.jpg', '23.jpeg', '24.jpeg', '25.jpeg',
         '26.jpeg', '27.jpeg', '28.png', '29.png', '30.png'
     ];
+    let i=0;
     return (
         <>
             {/* <div className="mt--10">
@@ -98,7 +97,7 @@ const BlogGroup = () => {
                 <div className="gallery">
                     {
                         imgArray.map ( item => 
-                            <div className="gallery-item" key={item}>
+                            <div className="gallery-item" key={++i}>
                                 <img className="gallery-image" src={"assets/img/blog/" + item } alt="pic" />
                             </div>
                         )

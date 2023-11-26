@@ -100,7 +100,7 @@ const ServiceAreaFive = () => {
 
             </div>
             <div className='col-lg-4 col-md-6 bg-blue-right d-lg-inline-block d-none'>
-              <div className='service-thumb service-middle-section align-self-end ash-center-img'>
+              <div className='service-thumb align-self-end ash-center-img'>
                 <img src='assets/img/service-icon/as1.png' alt='img' loading="lazy" />
                 <img src='assets/img/service-icon/as2.png' alt='img' loading="lazy" />
                 <img src='assets/img/service-icon/as3.png' alt='img' loading="lazy" />
