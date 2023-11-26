@@ -1,6 +1,6 @@
 import React from "react";
 import BannerFive from "../components/BannerFive";
-import CaseStudyAreaTwo from "../components/CaseStudyAreaTwo";
+// import CaseStudyAreaTwo from "../components/CaseStudyAreaTwo";
 import FooterFour from "../components/FooterFour";
 // import NavbarFour from "../components/NavbarFour";
 import NavBar from "../components/NavBar";
