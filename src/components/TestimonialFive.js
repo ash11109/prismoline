@@ -1,15 +1,17 @@
 import React from "react";
+import './ash.css';
 
 const TestimonialFive = () => {
   return (
     <>
       {/* =================== Testimonial Five Start ===================*/}
-      <div
+      {/* <div
         className='testimonial-area bg-left-50 pd-top-120 pd-bottom-90'
         style={{ backgroundImage: 'url("assets/img/about/t1.jpg")' }}
-      >
+      > */}
+      <div className='ash-testimonial-area'>
         <div className='row'>
-          <div className='col-xl-5 col-lg-7 offset-xl-5 offset-lg-4'>
+          <div className='col'>
             <div className='bg-white box-shadow border-radius-5 p-xl-5 p-4'>
               <div className='section-title'>
                 <h6 className='sub-title-sky-blue'>TESTIMONIAL</h6>

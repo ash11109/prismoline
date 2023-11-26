@@ -14,7 +14,7 @@ const HomeFive = () => {
       <NavBar />
       <BannerFive />
       <ServiceAreaFive />
-      <CaseStudyAreaTwo />
+      {/* <CaseStudyAreaTwo /> */}
       <TestimonialFive />
       <FooterFour />
     </>

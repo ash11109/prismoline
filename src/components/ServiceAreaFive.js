@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './ash.css';
 
 const ServiceAreaFive = () => {
   return (
@@ -10,7 +11,7 @@ const ServiceAreaFive = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-12'>
               <div className='section-title '>
-                <h2 className='sub-title-sky-blue text-center'>About Us</h2>
+                <h2 className='sub-title-sky-blue text-center'>Our Vision</h2>
                 <p >
                   We are the country's leading manufacturer and exporter of thermoplastic materials.
                   Prismoline is skilled in advanced thermoplastic formulation and is supported by the rich
@@ -99,13 +100,10 @@ const ServiceAreaFive = () => {
 
             </div>
             <div className='col-lg-4 col-md-6 bg-blue-right d-lg-inline-block d-none'>
-              <div className='service-thumb service-middle-section align-self-end'>
-                <img src='assets/img/service-icon/a1.svg' alt='img' loading="lazy" />
-                <img src='assets/img/service-icon/a2.svg' alt='img' loading="lazy" />
-                <img src='assets/img/service-icon/a3.svg' alt='img' loading="lazy" />
-                <img src='assets/img/service-icon/a4.svg' alt='img' loading="lazy" />
-                <img src='assets/img/service-icon/a5.svg' alt='img' loading="lazy" />
-
+              <div className='service-thumb service-middle-section align-self-end ash-center-img'>
+                <img src='assets/img/service-icon/as1.png' alt='img' loading="lazy" />
+                <img src='assets/img/service-icon/as2.png' alt='img' loading="lazy" />
+                <img src='assets/img/service-icon/as3.png' alt='img' loading="lazy" />
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
