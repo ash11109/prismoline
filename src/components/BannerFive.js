@@ -33,6 +33,7 @@ const BannerFive = () => {
                   Safer world
                 </h2>
                 <h2
+                style={{color:'#fff'}}
                   className='content haskpara pe-xl-4'
                   data-aos='fade-right'
                   data-aos-delay='350'

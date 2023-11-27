@@ -70,6 +70,9 @@ const NavBar = () => {
                 <Link to='/product'>Products</Link>
               </li>
               <li className='menu-item-has-children'>
+                <Link to='/equipments'>Equipments</Link>
+              </li>
+              <li className='menu-item-has-children'>
                 <Link to='/certificates'>Certificates</Link>
               </li>
               <li className='menu-item-has-children'>

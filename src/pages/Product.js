@@ -5,7 +5,7 @@ import NavBar from "../components/NavBar";
 import ProductList from "../components/ProductList";
 import ProductDetail from "../components/ProductDetail";
 
-const Service = () => {
+const Product = () => {
   return (
     <>
       <NavBar />
@@ -21,4 +21,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Product;

@@ -6,55 +6,6 @@ const ProductDetail = () => {
         <>
             <hr className="haskbgclr" />
             <div className=" p-5 haskbgclr">
-                <h2 className="text-center mb-5">Equipments</h2>
-                <div className="row">
-
-                    <div className="col-md">
-                        <h4 className="hasktxtclr text-center">Reflectometer</h4>
-                        <ul>
-                            <li>MX-7S is an optical measuring instrument devised for measuring the nighttime visibility of pavement markings.</li>
-                            <li>Portable type instrument which can measure the retroreflectivity by setting it directly on the pavement markings during day and night</li>
-                            <li>Its memory can record and store the real-time data.</li>
-                            <li>Capable of continuous measurement for 8 hours using large-capacity battery.</li>
-                        </ul>
-
-                        <div className="row divimg">
-                            <div className="col-sm">
-                                <img srcSet="./assets/img/service/e1.jpeg" alt="img" loading="lazy" />
-                            </div>
-                            <div className="col-sm">
-                                <img srcSet="./assets/img/service/e3.png" alt="img" loading="lazy" />
-                            </div>
-                        </div>
-
-                        <div className="row divimg">
-                            <div className="col-sm">
-                                <img srcSet="./assets/img/service/e2.png" alt="img" loading="lazy" />
-                            </div>
-                            <div className="col-sm">
-                                <img srcSet="./assets/img/service/e4.png" alt="img" loading="lazy" />
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="col-md ">
-                        <h4 className="hasktxtclr mb-3 text-center">Fully Automatic Road</h4>
-                        <h5 className="text-center">Marking Machine</h5>
-                        <div className="row divimg p-3 mb-3">
-                            <img srcSet="./assets/img/service/w3.png" alt="img" loading="lazy" />
-                        </div>
-                        <div className="row divimg p-3">
-                            <img srcSet="./assets/img/service/w4.png" alt="img" loading="lazy" />
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <hr className="haskbgclr" />
-            <div className=" p-5 haskbgclr">
 
                 <div className="row">
 
@@ -128,7 +79,7 @@ const ProductDetail = () => {
                     <div className="col-md-4">
                         <h5>Potters Glass Beads</h5>
                         <p className="my-3 hasktxtclr">Potters are a step superior glass beads that are very tuf and are specially coated for high reflection and which are highly water and dust resistant.</p>
-                        <p className="my-3 hasktxtclr">POTTERS GLASS BEADS COMES WITH MAXIMUM ROUNDNESS IN THEM THUS MAKING THE GLASS BEADS APPROPRIATE FOR BEST REFLECTION</p>
+                        <p className="my-3 hasktxtclr">Potters glass beads comes with maximum roundness in them thus making the glass beads appropriate for best reflection</p>
                         <img className="clrimg" srcSet="./assets/img/service/ps2.png" alt="img" loading="lazy" />
 
                     </div>
@@ -137,8 +88,7 @@ const ProductDetail = () => {
                             <img srcSet="./assets/img/service/ps1.jpg" alt="img" loading="lazy" />
                         </div>
                         <div className="row mt-5">
-                            <h5>
-                                Sovitech Glass Beads</h5>
+                            <h5>Sovitech Glass Bead</h5>
                             <p className="hasktxtclr mt-2">High performance road marking micro glass beads,for application by sprinkling . These are treated with special surface as to increase the performance of road marking beads. These in return gives a good reflective at day and night and also delivering anti skid restive properties </p>
                         </div>
                     </div>
