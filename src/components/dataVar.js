@@ -16,8 +16,9 @@ export const OTHER = [
 
 export const GLASSBEAD = [
     { id: 1, name: 'Prismolite Glass Bead', img: 'GLASS BEAD/Prismolite glass bead.png' },
-    { id: 2, name: 'Sovitech Glass Bead', img: 'GLASS BEAD/sovitech glass bead.png' },
-    { id: 3, name: 'Potter Thai Glass Bead', img: 'GLASS BEAD/potter thai.png' }
+    { id: 2, name: 'Sovitech Glass Bead', img: 'GLASS BEAD/sovitech glass bead.jpg' },
+    { id: 3, name: 'Potter Thai Glass Bead', img: 'GLASS BEAD/potter thai.png' },
+    { id: 4, name: 'PRISMOLITE PRO', img: 'GLASS BEAD/PRISMOLITE PRO.jpeg' }
 ];
 
 export const THTEEMPRODUCT = [
