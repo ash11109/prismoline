@@ -3,6 +3,8 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import { proImgUrl , THERMOPLASTICPAINT , OTHER , GLASSBEAD , THTEEMPRODUCT ,SIGNAGES } from './dataVar';
 import 'react-tabs/style/react-tabs.css';
 import './ProductList.css';
+import GlassBeads from "./GlassBeads";
+import ThreeMPro from "./ThreeMPro";
 
 const ProductList = () => {
 
@@ -39,6 +41,7 @@ const ProductList = () => {
                                 GLASSBEAD.map((item) => productTemplate (item) )
                             }
                         </div>
+                        <GlassBeads />
                     </TabPanel>
                     <TabPanel>
                         <div className="galleryash">
@@ -46,6 +49,7 @@ const ProductList = () => {
                                 THTEEMPRODUCT.map((item) => productTemplate (item) )
                             }
                         </div>
+                        <ThreeMPro />
                     </TabPanel>
                     <TabPanel>
                         <div className="galleryash">
