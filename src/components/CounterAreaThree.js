@@ -13,80 +13,51 @@ const CounterAreaThree = () => {
           <div className='row'>
             <div className='col-lg-3 col-md-6'>
               <div className='single-counter-inner style-2 text-center'>
-                {/* <div className='thumb'>
-                  <img src='assets/img/icon/5.svg' alt='img' />
-                </div> */}
                 <h2 className='text-white mt-3 mb-2'>
-                  {/* <TrackVisibility partialVisibility >
-                    {({ isVisible }) =>
-                      isVisible && ( */}
-                        {inView &&
-                        <span className='counter'>
-                          <CountUp delay={0} start={0} end={90} /> +
-                        </span>
-                      // )
-                    }
-                  {/* </TrackVisibility> */}
+                  {inView &&
+                    <span className='counter'>
+                      <CountUp delay={0} start={0} end={100} /> +
+                    </span>
+                  }
                 </h2>
                 <p className='text-white'>PROJECTS</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='single-counter-inner style-2 text-center'>
-                {/* <div className='thumb'>
-                  <img src='assets/img/icon/6.svg' alt='img' />
-                </div> */}
                 <h2 className='text-white mt-3 mb-2' ref={ref}>
-                  {/* <TrackVisibility partialVisibility >
-                    {({ isVisible }) =>
-                      isVisible  && (
-                        <span className='counter'>
-                          <CountUp delay={0} start={0} end={85} />+
-                        </span>
-                      )
-                    }
-                  </TrackVisibility> */}
-
-                    {inView &&
-                  <span className='counter'>
-                          <CountUp delay={0} start={0} end={85} />+
-                        </span>
-                      }
+                  {inView &&
+                    <span className='counter'>
+                      <CountUp delay={0} start={0} end={150} />+
+                    </span>
+                  }
                 </h2>
                 <p className='text-white'>HAPPY CLIENTS</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='single-counter-inner style-2 text-center'>
-                {/* <div className='thumb'>
-                  <img src='assets/img/icon/7.svg' alt='img' />
-                </div> */}
                 <h2 className='text-white mt-3 mb-2'>
-                  
-                        {inView &&
-                        <span className='counter'>
-                          <CountUp delay={0} start={0} end={6000} /> +
-                        </span>
-                     
-                    }
-                 
+                  {inView &&
+                    <span className='counter'>
+                      <CountUp delay={0} start={0} end={10000} /> +
+                    </span>
+
+                  }
                 </h2>
                 <p className='text-white'>METRIC TONNES</p>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='single-counter-inner style-2 text-center'>
-                {/* <div className='thumb'>
-                  <img src='assets/img/icon/8.svg' alt='img' />
-                </div> */}
+
                 <h2 className='text-white mt-3 mb-2'>
-                {inView &&
-                        <span className='counter'>
-                          <CountUp delay={0} start={0} end={1500000} /> +
-                        </span>
-                     
-                    }
-                  
+                  {inView &&
+                    <span className='counter'>
+                      <CountUp delay={0} start={0} end={5000000} /> +
+                    </span>
+
+                  }
                 </h2>
                 <p className='text-white'>SQ MTRS COVERED</p>
               </div>

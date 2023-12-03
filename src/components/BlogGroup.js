@@ -10,8 +10,11 @@ const BlogGroup = () => {
         'n1.jpg','n2.jpg','n3.jpg', 
         '14.png', '15.png', '16.png', 
         '19.jpg', '20.jpg', '22.jpg', 
-        '23.jpeg', '24.jpeg', '25.jpeg',
-        '26.jpeg', '27.jpeg', '28.png'
+        '24.jpeg', '27.jpeg', '28.png' ,
+        'a1.jpg','a2.jpg','a3.jpg',
+        'a4.jpg','a5.jpg','a6.jpg',
+        'a7.jpg','a8.jpg','a9.jpg',
+        'a10.jpeg','a11.jpg'
     ];
     let i=0;
     return (

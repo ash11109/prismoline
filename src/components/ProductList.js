@@ -1,6 +1,6 @@
 import React from "react";
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
-import { proImgUrl , THERMOPLASTICPAINT , OTHER , GLASSBEAD , THTEEMPRODUCT } from './dataVar';
+import { proImgUrl , THERMOPLASTICPAINT , OTHER , GLASSBEAD , THTEEMPRODUCT ,SIGNAGES } from './dataVar';
 import 'react-tabs/style/react-tabs.css';
 import './ProductList.css';
 
@@ -20,23 +20,16 @@ const ProductList = () => {
             <div className="ash-tab-div">
                 <Tabs>
                     <TabList className="ash-tab-head">
-                        <Tab>THERMO PLASTIC PAINT</Tab>
-                        <Tab>OTHERS</Tab>
+                        <Tab>THERMOPLASTIC PAINT</Tab>
                         <Tab>GLASS BEADS</Tab>
                         <Tab>3M PRODUCTS</Tab>
-                        <Tab>CRASH BARRIER</Tab>
+                        <Tab>SIGNAGES</Tab>
+                        <Tab>OTHERS</Tab>
                     </TabList>
                     <TabPanel>
                         <div className="galleryash">
                             {
                                 THERMOPLASTICPAINT.map((item) => productTemplate (item) )
-                            }
-                        </div>
-                    </TabPanel>
-                    <TabPanel>
-                        <div className="galleryash">
-                            {
-                                OTHER.map((item) => productTemplate (item) )
                             }
                         </div>
                     </TabPanel>
@@ -55,8 +48,17 @@ const ProductList = () => {
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="gallery">
-
+                        <div className="galleryash">
+                            {
+                                SIGNAGES.map((item) => productTemplate (item) )
+                            }
+                        </div>
+                    </TabPanel>
+                    <TabPanel>
+                        <div className="galleryash">
+                            {
+                                OTHER.map((item) => productTemplate (item) )
+                            }
                         </div>
                     </TabPanel>
                 </Tabs>

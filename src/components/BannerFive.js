@@ -62,7 +62,7 @@ const BannerFive = () => {
                     onClick={() => setOpen(true)}
                   >
                     <img src='assets/img/video.svg' alt='img' />
-                    <h6 className='d-inline-block text-white'>how we work</h6>
+                    <h6 className='d-inline-block text-white'>How We Work</h6>
                   </div>
 
                   <div></div>

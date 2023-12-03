@@ -1,14 +1,17 @@
 export const proImgUrl = 'assets/img/product/';
 
 export const THERMOPLASTICPAINT = [
-    { id: 1, name: 'Snowlite', img: 'THERMO PLASTIC PAINT/SNOWLITE WHITE.jpg' },
-    { id: 2, name: 'Prismoline', img: 'THERMO PLASTIC PAINT/PRESMOLINE.jpg' },
-    { id: 3, name: 'Prismoline Premium', img: 'THERMO PLASTIC PAINT/PRESMOLINE PREMIUM.jpg' },
-    { id: 4, name: 'Kerb Marking Paint', img: 'THERMO PLASTIC PAINT/Karb marking.png' }
+    { id: 1, name: 'RIB MARKING PAINT', img: 'THERMO PLASTIC PAINT/ribmark.jpg' },
+    { id: 2, name: 'PRIMER', img: 'THERMO PLASTIC PAINT/prpoxy.jpg' },
+    { id: 3, name: 'PRISMOLITE EPOXY', img: 'THERMO PLASTIC PAINT/prpoxy.jpg' }
 ];
 
 export const OTHER = [
-    { id: 1, name: 'Primer', img: 'OTHER/p2.jpg' }
+    { id: 1, name: 'SPEED BREAKER', img: 'OTHER/SPEED BREAKER.png' } ,
+    { id: 2, name: 'CRASH BARRIER', img: 'OTHER/CRASH BARRIER1.jpg' } ,
+    { id: 3, name: 'CRASH BARRIER', img: 'OTHER/CRASH BARRIER2.png' } ,
+    { id: 4, name: 'CRASH BARRIER', img: 'OTHER/CRASH BARRIER3.jpg' } ,
+    { id: 5, name: 'CRASH BARRIER', img: 'OTHER/CRASH BARRIER4.png' }
 ];
 
 export const GLASSBEAD = [
@@ -31,4 +34,15 @@ export const THTEEMPRODUCT = [
     { id: 11, name: 'SPEED BREAKER', img: '3M PRODUCT/UTKARSH.jpg' },
     { id: 12, name: 'HARDNER BOTLE', img: '3M PRODUCT/UTKARSH.jpg' },
     { id: 13, name: 'RESIN EPOXY', img: '3M PRODUCT/UTKARSH.jpg' }
+];
+
+export const SIGNAGES = [
+    { id: 1, name: 'SIGNAGES', img: 'SIGNAGES/SIGNAGE1.jpeg' } ,
+    { id: 2, name: 'SIGNAGES', img: 'SIGNAGES/SIGNAGE2.jpeg' } ,
+    { id: 3, name: 'SIGNAGES', img: 'SIGNAGES/SIGNAGE3.jpeg' } ,
+    { id: 4, name: 'SIGNAGES', img: 'SIGNAGES/SIGNAGE4.jpeg' } ,
+    { id: 5, name: 'SIGNAGES', img: 'SIGNAGES/SIGNAGE5.jpeg' } ,
+    { id: 6, name: 'SIGNAGES', img: 'SIGNAGES/SIGNAGE6.jpeg' } ,
+    { id: 7, name: 'SIGNAGES', img: 'SIGNAGES/SIGNAGE7.jpeg' } ,
+    { id: 8, name: 'SIGNAGES', img: 'SIGNAGES/SIGNAGE8.jpeg' }
 ];

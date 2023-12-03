@@ -51,56 +51,8 @@ const AboutAreaOne = () => {
                   <span> PRISMOLINE </span> 
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                 was established to make road safer. We are
-                  leading manufacture & export of thermoplastic materials. Our
-                  rich experience & expertise in thermoplastic, along with
-                  advanced thermoplastic formulation, are leading the way to
-                  safer trac on road for road for world’s population. we are
-                  committed to quality, Safety, Environment & Customers.
-                  Our Quality management system start with quality with
-                  assurance testing on all incoming raw materials, entire
-                  manufacturing process, and finished product. our quality
-                  control system & computerized batch control manufacturing
-                  facility delivered an excellent product every time. <b> PRISMOLINE </b>
-                  is passionate to quality from raw material to application on
-                  road by providing expert technical field support.
-                  At <b> PRISMOLINE </b> our goal is 100% customer satisfaction. We
-                  believe that our success depend only on success of our valued
-                  customers.
-                  We believe in producing environment friendly marking and BS
-                  materials. At the same time all making match or exceed
-                  standard like the <b> MORTH 803.4 </b> and <b> BS 36262. </b>
-
+                  was established to make road safer. We are leading manufacturer & exporter of thermoplastic materials. Our rich experience & expertise in thermoplastic, along with advanced thermoplastic formulation, are leading the way to safer traffic on road for world’s population. We are committed to quality, Safety, Environment & Customers. Our Quality management system starts with quality assurance testing on all incoming raw materials, entire manufacturing process, and finished product. Our quality control system & computerized batch control manufacturing facility delivers excellent product every time. PRISMOLINE is passionate towards maintaining quality from raw material to application on road by providing expert technical field support. At PRISMOLINE our goal is 100% customer satisfaction. We believe that our success depends only on success of our valued customers. We believe in producing environment friendly marking and BS materials. At the same time all making match or exceed standards like the MORTH 803.4 and BS 36262.
                 </p>
-                {/* <div className='row'>
-                  <div className='col-md-6'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img className="m-auto" src='assets/img/icon/2.png' alt='img' loading="lazy"/>
-                      </div>
-                      <div className='details text-center'>
-                        <h5>Mission</h5>
-                        <p>
-                          “We intend to reduce road fatalities by 50% by 2050, in accordance with the nation's goal.”
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='col-md-6'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' loading="lazy"/>
-                      </div>
-                      <div className='details text-center haskdetails'>
-                        <h5>Vision</h5>
-                        <p>
-                          “We believe in the very essence of Make In India and intend to make roads safer in India. We
-                          aspire to be global leaders in our line of work by providing quality services and products.”
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>

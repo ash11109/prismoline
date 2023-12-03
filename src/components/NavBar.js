@@ -73,7 +73,7 @@ const NavBar = () => {
                 <Link to='/equipments'>Equipments</Link>
               </li>
               <li className='menu-item-has-children'>
-                <Link to='/certificates'>Certificates</Link>
+                <Link to='/certificates'>Credentials</Link>
               </li>
               <li className='menu-item-has-children'>
                 <Link to='/gallery'>Gallery</Link>

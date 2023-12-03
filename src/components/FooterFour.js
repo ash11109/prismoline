@@ -130,9 +130,6 @@ const FooterFour = () => {
                  <p> Asansol , Siliguri ( WB ) </p>
                  <p> Guwahati ( Assam ) </p>
                  <p> Bhubaneshwar ( Odisha ) </p>
-                 <p> Raipur ( Chattisgarh ) </p>
-                 <p> Jabalpur ( MP ) </p>
-
               </div>
             </div>
           </div>

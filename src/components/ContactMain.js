@@ -16,7 +16,7 @@ const ContactMain = () => {
         <div className='container'>
           <div className='contact-page-inner bg-gray'>
             <div className='section-title mb-4 pb-2'>
-              <h2 className='title'>Direct contact us? </h2>
+              <h2 className='title'>Contact Us </h2>
               <p className='content mb-0'>
               </p>
             </div>

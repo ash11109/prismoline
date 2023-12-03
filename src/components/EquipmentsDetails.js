@@ -21,15 +21,15 @@ const EquipmentsDetails = () => {
                             <div className="col-sm">
                                 <img srcSet="./assets/img/service/e1.jpeg" alt="img" loading="lazy" />
                             </div>
+                        </div>
+
+                        <div className="row divimg">
                             <div className="col-sm">
                                 <img srcSet="./assets/img/service/e3.png" alt="img" loading="lazy" />
                             </div>
                         </div>
 
                         <div className="row divimg">
-                            <div className="col-sm">
-                                <img srcSet="./assets/img/service/e2.png" alt="img" loading="lazy" />
-                            </div>
                             <div className="col-sm">
                                 <img srcSet="./assets/img/service/e4.png" alt="img" loading="lazy" />
                             </div>
