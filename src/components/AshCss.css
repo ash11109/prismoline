@@ -1,24 +1,24 @@
 .ash-center-img {
-    margin-top: 70px;
-    margin-left: 8%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-    width: 75%;
-    justify-content: center;
+	margin-top: 70px;
+	margin-left: 8%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+	width: 75%;
+	justify-content: center;
 }
 
 .ash-testimonial-area {
-    padding: 40px 80px 80px 40px;
+	padding: 40px 80px 80px 40px;
 }
 
 .ash-yt {
-    width: 70%;
-    margin: 40px auto;
+	width: 70%;
+	margin: 40px auto;
 }
 
 .as-gallery {
-    margin: 15px 15px;
+	margin: 15px 15px;
 }
 
 .gallery {
@@ -57,4 +57,42 @@
 	.gallery-item {
 		margin: 0;
 	}
+}
+
+.mt-ash {
+	margin-top: 20px;
+}
+
+.wd-ash {
+	width: 90%;
+	margin: auto;
+	padding-top: 40px;
+}
+
+
+.zoomWrapper {
+	max-width: 400px;
+	overflow: hidden;
+	margin: 0 auto 40px auto;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.zoomWrapper img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.zoomWrapper img:hover {
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	transform: scale(1.25);
 }

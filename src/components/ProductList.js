@@ -2,9 +2,10 @@ import React from "react";
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import { proImgUrl , THERMOPLASTICPAINT , OTHER , GLASSBEAD , THTEEMPRODUCT ,SIGNAGES } from './dataVar';
 import 'react-tabs/style/react-tabs.css';
-import './ProductList.css';
 import GlassBeads from "./GlassBeads";
 import ThreeMPro from "./ThreeMPro";
+import ProductDetail from "./ProductDetail";
+import './ProductList.css';
 
 const ProductList = () => {
 
@@ -34,6 +35,7 @@ const ProductList = () => {
                                 THERMOPLASTICPAINT.map((item) => productTemplate (item) )
                             }
                         </div>
+                        <ProductDetail />
                     </TabPanel>
                     <TabPanel>
                         <div className="galleryash">
