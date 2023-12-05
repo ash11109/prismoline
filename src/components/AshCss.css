@@ -96,3 +96,7 @@
 	-o-transform: scale(1.25);
 	transform: scale(1.25);
 }
+
+.ash-margin-bottom {
+	margin-bottom: 80px;
+}
