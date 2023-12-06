@@ -40,9 +40,7 @@ const ProductList = () => {
                         
                     </TabPanel>
                     <TabPanel>
-                        <div className="container"></div>
                         <ProductDetail />
-                        <ServiceAreaGroup />
                     </TabPanel>
                     <TabPanel>
                         <div className="galleryash">
