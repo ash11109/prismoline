@@ -5,7 +5,6 @@ import 'react-tabs/style/react-tabs.css';
 import GlassBeads from "./GlassBeads";
 import ThreeMPro from "./ThreeMPro";
 import ProductDetail from "./ProductDetail";
-import ServiceAreaGroup from "./ServiceAreaGroup";
 import './ProductList.css';
 
 const ProductList = () => {
