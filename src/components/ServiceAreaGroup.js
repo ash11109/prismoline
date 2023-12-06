@@ -43,18 +43,18 @@ const ServiceAreaGroup = () => {
           </div>
         </div>
       </div> */}
-      <div className=" p-5 haskbgclr">
+      <div className="p-5">
         <div className="row">
           <div className="col-md">
-            <h4 className="hasktxtclr">Thermoplastic Road Markings</h4>
-            <p className="hasktxtclr py-5">Hot Melt Thermoplastics are solid road marking materials at ambient temperature, which melt to liquid when heated at high temperature (between 180 and 220°C).</p>
+            <h4 className="">Thermoplastic Road Markings</h4>
+            <p className=" py-5">Hot Melt Thermoplastics are solid road marking materials at ambient temperature, which melt to liquid when heated at high temperature (between 180 and 220°C).</p>
 
 
             {/* <iframe srcSet="https://www.youtube.com/watch?v=8CqLtT3B6hw" title="youtube video" allowFullScreen></iframe> */}
           </div>
 
-          <div className="col-md ">
-            <h4 className="hasktxtclr">Key Features of Thermoplastic Materials : </h4>
+          <div className="col-md">
+            <h4 className="">Key Features of Thermoplastic Materials : </h4>
             <ul>
               <li>Immediate drying allow immediate opening of the road to traffic</li>
               <li>Very long durability, as the are applied as thick layers (usually 1.5 to 3mm)</li>

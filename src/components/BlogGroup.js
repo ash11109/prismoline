@@ -5,8 +5,8 @@ const BlogGroup = () => {
 
     const imgArray = [
         '01.jpg','02.jpg','03.jpg',
-        '04.jpg','05.jpg','06.jpg',
-        '07.jpg','07.jpg','09.jpg',
+        '04.jpg', '06.jpg',
+        '07.jpg','09.jpg',
         'n1.jpg','n2.jpg','n3.jpg', 
         '14.png', '15.png', '16.png', 
         '19.jpg', '20.jpg', '22.jpg', 

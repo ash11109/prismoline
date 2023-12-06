@@ -5,6 +5,7 @@ import 'react-tabs/style/react-tabs.css';
 import GlassBeads from "./GlassBeads";
 import ThreeMPro from "./ThreeMPro";
 import ProductDetail from "./ProductDetail";
+import ServiceAreaGroup from "./ServiceAreaGroup";
 import './ProductList.css';
 
 const ProductList = () => {
@@ -24,6 +25,7 @@ const ProductList = () => {
                 <Tabs>
                     <TabList className="ash-tab-head">
                         <Tab>THERMOPLASTIC PAINT</Tab>
+                        <Tab>THERMOPLASTIC PAINT FEATURES</Tab>
                         <Tab>GLASS BEADS</Tab>
                         <Tab>3M PRODUCTS</Tab>
                         <Tab>SIGNAGES</Tab>
@@ -35,7 +37,12 @@ const ProductList = () => {
                                 THERMOPLASTICPAINT.map((item) => productTemplate (item) )
                             }
                         </div>
+                        
+                    </TabPanel>
+                    <TabPanel>
+                        <div className="container"></div>
                         <ProductDetail />
+                        <ServiceAreaGroup />
                     </TabPanel>
                     <TabPanel>
                         <div className="galleryash">

@@ -38,11 +38,11 @@ const AboutAreaOne = () => {
                   loading="lazy"
                 />
               </div>
-            <div className="col-lg-6" style={{marginTop:20}}>
+            {/* <div className="col-lg-6" style={{marginTop:20}}>
               <div className="zoomWrapper">
-                            <img srcSet="./assets/img/service/g1.gif" alt="img" loading="lazy" />
+                <img srcSet="./assets/img/service/g1.gif" alt="img" loading="lazy" />
               </div>
-           </div>
+           </div> */}
             </div>
             <div
               className='col-lg-6 '
