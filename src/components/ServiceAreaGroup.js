@@ -66,11 +66,11 @@ const ServiceAreaGroup = () => {
         </div> */}
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col ash-yt">
             <iframe className="haskvideo ash-yt" src="https://www.youtube.com/embed/8CqLtT3B6hw" loading="lazy" title="youtube video" allowFullScreen />
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* =================== service area end ===================*/}

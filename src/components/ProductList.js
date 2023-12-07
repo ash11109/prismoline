@@ -23,23 +23,22 @@ const ProductList = () => {
             <div className="ash-tab-div">
                 <Tabs>
                     <TabList className="ash-tab-head">
-                        <Tab>THERMOPLASTIC PAINT</Tab>
                         <Tab>THERMOPLASTIC PAINT FEATURES</Tab>
+                        <Tab>THERMOPLASTIC PAINT</Tab>
                         <Tab>GLASS BEADS</Tab>
                         <Tab>3M PRODUCTS</Tab>
                         <Tab>SIGNAGES</Tab>
                         <Tab>OTHERS</Tab>
                     </TabList>
                     <TabPanel>
+                        <ProductDetail />
+                    </TabPanel>
+                    <TabPanel>
                         <div className="galleryash">
                             {
                                 THERMOPLASTICPAINT.map((item) => productTemplate (item) )
                             }
                         </div>
-                        
-                    </TabPanel>
-                    <TabPanel>
-                        <ProductDetail />
                     </TabPanel>
                     <TabPanel>
                         <div className="galleryash">
