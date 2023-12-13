@@ -1,7 +1,6 @@
 export const proImgUrl = 'assets/img/product/';
 
 export const THERMOPLASTICPAINT = [
-    { id: 1, name: 'SNOWLITE', img: 'THERMO PLASTIC PAINT/SNOWLITE.jpg' },
     { id: 2, name: 'PRISMOLINE', img: 'THERMO PLASTIC PAINT/PRISMOLINE.jpg' },
     { id: 3, name: 'PRISMOLINE PREMIUM', img: 'THERMO PLASTIC PAINT/PRISMOLINE PREMIUM.jpg' },
     { id: 4, name: 'KERB MARKING PAINT', img: 'THERMO PLASTIC PAINT/KERB MARKING PAINT.png' },
