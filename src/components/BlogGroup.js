@@ -4,6 +4,7 @@ import './AshCss.css';
 const BlogGroup = () => {
 
     const imgArray = [
+        'as1.jpg','as2.jpg',
         '01.jpg','02.jpg','03.jpg',
         '04.jpg', '06.jpg',
         '07.jpg','09.jpg',
