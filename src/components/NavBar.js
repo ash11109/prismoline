@@ -76,6 +76,9 @@ const NavBar = () => {
                 <Link to='/certificates'>Credentials</Link>
               </li>
               <li className='menu-item-has-children'>
+                <Link to='/ourclients'>Our Clients</Link>
+              </li>
+              <li className='menu-item-has-children'>
                 <Link to='/gallery'>Gallery</Link>
               </li>
               

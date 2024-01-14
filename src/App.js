@@ -6,6 +6,7 @@ import HomeOne from "./pages/HomeOne";
 import Product from "./pages/Product";
 import TeamDetails from "./pages/TeamDetails";
 import Equipments from "./pages/Equipments";
+import Ourclients from "./pages/Ourclients";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -30,6 +31,7 @@ function App() {
         <Route exact path='/product' element={<Product />} />
         <Route exact path='/equipments' element={<Equipments />} />
         <Route exact path='/certificates' element={<TeamDetails />} />
+        <Route exact path='/ourclients' element={<Ourclients />} />
       </Routes>
       <ScrollToTop smooth color='#246BFD' />
     </BrowserRouter>
