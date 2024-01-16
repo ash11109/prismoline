@@ -5,7 +5,8 @@ const ClientList = () => {
 
     const imgArray = [
         '1.png','2.avif','3.jpg',
-        '4.jpg','5.png','6.jpg'
+        '4.jpg','5.png','6.jpg',
+        '7.jpg'
     ];
     let i=0;
     return (
