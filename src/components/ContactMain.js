@@ -93,7 +93,7 @@ const ContactMain = () => {
       </div>
 
       <div className="row">
-          <img src="./assets/img/map.jpg" alt="img" loading="lazy" />
+          <img src="./assets/img/map16feb.jpg" alt="img" loading="lazy" />
         </div>
 
       {/* contact list */}

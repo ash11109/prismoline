@@ -23,7 +23,8 @@ export const GLASSBEAD = [
     { id: 1, name: 'Prismolite Glass Bead', img: 'GLASS BEAD/Prismolite glass bead.png' },
     { id: 2, name: 'Sovitech Glass Bead', img: 'GLASS BEAD/sovitech glass bead.jpg' },
     { id: 3, name: 'Potter Thai Glass Bead', img: 'GLASS BEAD/potter thai.png' },
-    { id: 4, name: 'PRISMOLITE PRO', img: 'GLASS BEAD/PRISMOLITE PRO.jpeg' }
+    { id: 4, name: 'PRISMOLITE PRO', img: 'GLASS BEAD/PRISMOLITE PRO.jpeg' } ,
+    { id: 5, name: 'ECHOSTAR', img: 'GLASS BEAD/echostar.jpg' }
 ];
 
 export const SIGNAGES = [
